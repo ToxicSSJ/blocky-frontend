@@ -1,0 +1,30 @@
+{
+  "name": "svelte-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public --no-clear"
+  },
+  "devDependencies": {
+    "@beyonk/svelte-notifications": "^4.1.1",
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "carbon-components-svelte": "^0.42.2",
+    "rollup": "^2.3.4",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "svelte": "^3.0.0"
+  },
+  "dependencies": {
+    "js-base64": "^3.6.1",
+    "sirv-cli": "^1.0.0",
+    "svelte-fluid-header": "^0.2.1",
+    "svelte-notifications": "^0.9.91",
+    "svelte-split-pane": "^0.1.2",
+    "svelte-step-wizard": "0.0.2"
+  }
+}
